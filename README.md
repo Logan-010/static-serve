@@ -1,8 +1,7 @@
 # static-serve
-## this branch is the same as main, however it serves from the same directory as the executable rather than from site/
-serves a static site on http://localhost:8080
-NOTE!! this serves a index.html file located in the same directory as the executable file.
-for example (windows), in the site's directory you would put serve.exe and index.html
+
+serves a static website, 
+for this branch (alternate), it serves an index.html located in the same directory as the executable
 
 file structure example
 ---
@@ -12,4 +11,4 @@ build via
 ```
 cargo run
 ```
-executable located at target/debug/serve.exe (windows)
+executable located at target/debug/serve.exe (or just serve for linux and whatnot)
