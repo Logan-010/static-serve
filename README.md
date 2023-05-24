@@ -5,6 +5,7 @@ NOTE!! this serves a index.html file located in the same directory as the execut
 for example (windows), in the site's directory you would put serve.exe and index.html
 
 file structure example
+---
 ![file structure](https://raw.githubusercontent.com/Logan-010/static-serve/alternate/fs-example.png)
 
 build via
