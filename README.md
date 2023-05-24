@@ -1,10 +1,17 @@
 # static-serve
-serves a static site on http://localhost:8080
-NOTE!! this serves a index.html file located in the site/ directory.
-for example, in the executables directory you would put serve.exe and site/index.html
 
+serves a static website, 
+for this branch (alternate), it serves an index.html located in the same directory as the executable
+
+### file structure example
+---
+![file structure](https://raw.githubusercontent.com/Logan-010/static-serve/main/fs-example.png)
+
+---
+
+### build
 build via
 ```
 cargo run
 ```
-executable from build located at target/debug/serve
+executable located at target/debug/serve.exe (or just serve for linux and whatnot)
